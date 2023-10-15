@@ -1,0 +1,52 @@
+/* App.css */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .first-section {
+    height: 100vh; /* Full screen height */
+    background-color: #f0f0f0; /* Background color for first section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .full-screen-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .second-section {
+    padding: 20px;
+  }
+  
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .third-section {
+    padding: 20px;
+  }
+  
+  .message-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .message-card {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
